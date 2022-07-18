@@ -13,6 +13,7 @@
         "source": "https://github.com/blomstra/flarum-ext-test-notification-dispatcher",
         "issues": "https://github.com/blomstra/flarum-ext-test-notification-dispatcher/issues"
     },
+    "homepage": "https://blomstra.net",
     "authors": [
         {
             "name": "Team Blomstra",
