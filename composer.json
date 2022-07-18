@@ -1,0 +1,45 @@
+{
+    "name": "blomstra/test-notification-dispatcher",
+    "description": "CLI to dispatch notifications for development/testing",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "support": {
+        "source": "https://github.com/blomstra/flarum-ext-test-notification-dispatcher",
+        "issues": "https://github.com/blomstra/flarum-ext-test-notification-dispatcher/issues"
+    },
+    "authors": [
+        {
+            "name": "Team Blomstra",
+            "email": "development@blomstra.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Blomstra\\NotificationDispatcher\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Test Notification Dispatcher",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-vial",
+                "backgroundColor": "#EBF1FD",
+                "color": "#3a98d0"
+            }
+        },
+        "optional-dependencies": [
+            "flarum/mentions",
+            "flarum/subscriptions",
+            "flarum/suspend",
+            "fof/follow-tags"
+          ]
+    }
+}
