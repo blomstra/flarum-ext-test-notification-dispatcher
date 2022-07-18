@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of blomstra/test-notification-dispatcher.
+ *
+ *  Copyright (c) 2022 Blomstra Ltd.
+ *
+ *  For the full copyright and license information, please view the LICENSE.md
+ *  file that was distributed with this source code.
+ */
+
 namespace Blomstra\NotificationDispatcher\Console;
 
 use Flarum\Discussion\Discussion;
@@ -17,7 +26,6 @@ use Flarum\Suspend\Notification\UserUnsuspendedBlueprint;
 use Flarum\Tags\TagState;
 use Flarum\User\User;
 use FoF\FollowTags\Notifications\NewDiscussionBlueprint;
-use FoF\FollowTags\Notifications\NewDiscussionTagBlueprint;
 use FoF\FollowTags\Notifications\NewPostBlueprint as FollowTagsNewPostBlueprint;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Builder;
